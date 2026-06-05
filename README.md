@@ -1,12 +1,22 @@
-# Day 1 - LED Blink (Arduino)
+# Day 1 - Arduino Basics
 
 ## Objective
-Learn how to control a digital output pin using Arduino.
+Learn basic Arduino concepts using Serial Monitor and built-in LED.
 
-## Concepts Learned
-- Digital output (HIGH / LOW)
-- delay function
-- GPIO basics
+## Topics Covered
+- Serial communication
+- Built-in LED control
+- Digital output (HIGH/LOW)
+- Basic debugging using Serial prints
 
-## Result
-LED blinks continuously with a 1-second interval.
+## Program Flow
+1. Arduino starts
+2. Prints "Hello World"
+3. Initializes built-in LED
+4. Blinks LED every 1 second
+5. Prints LED status to Serial Monitor
+
+## Expected Output
+Hello World - Arduino Started  
+LED STATUS: ON  
+LED STATUS: OFF  
